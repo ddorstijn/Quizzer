@@ -35,7 +35,9 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify'
+    '@/plugins/vuetify',
+    '~/plugins/vue-katex',
+    { src: '~plugins/vue-quill-editor', ssr: false }
   ],
 
   /*
